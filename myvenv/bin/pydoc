@@ -1,0 +1,5 @@
+#!/home/fzzio/Documentos/Aprendiendo/tallerPython/djangogirls/myvenv/bin/python3
+if __name__ == '__main__':
+    import sys, pydoc
+    sys.exit(pydoc.cli())
+
