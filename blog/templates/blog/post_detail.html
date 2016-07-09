@@ -14,8 +14,11 @@
 		        </p>
   			</div>
   		</div>
+  		{% if user.is_authenticated %}
   		<div class="row">
+  			<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
   			<hr>
   		</div>
+  		{% endif %}
   	</section>
   	{% endblock %} 
